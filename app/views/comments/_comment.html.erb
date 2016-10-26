@@ -1,8 +1,12 @@
 <%= div_for comment do %>
-  <p><strong>
-      Posted <%= time_ago_in_words(comment.created_at) %>
-    </strong>
-    <br />
-    <%= h(comment.body) %>
-  </p>
+  <div class="center comment">
+    <p class="italized textlight">
+        Posted <%= time_ago_in_words(comment.created_at) %>
+      <br />
+    </p>
+    <p class="textlight">
+      <%= h(comment.body) %>
+      <br/>------------------------------------
+    </p>
+</div>
 <% end %>
