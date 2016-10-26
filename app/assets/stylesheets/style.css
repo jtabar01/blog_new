@@ -2,6 +2,39 @@ body{
   background-color: #000;
   color: #FE9A2E;
 }
+
+.wrapper{
+  margin-top: 200px;
+}
+
+.topbar{
+  top: 0;
+  z-index: 9;
+  background-color: #FE9A2E;
+  opacity: 80%;
+}
+
+.topbar a{
+  color: #000;
+  text-decoration: none !important;
+}
+
+.topbar a:hover{
+  color: #fff;
+  background-color:#FE9A2E;
+}
+
+.mlink{
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.mlink li{
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 h2, h1{
   text-align: center;
   text-decoration: underline;
